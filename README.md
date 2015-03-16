@@ -7,7 +7,7 @@ There is 4 method to presenting a Popover menu
 
 1. Show content and point to FromView
 
-	```
+	```Swift
 	// Pop from this Button
 	let fromBtn = UIButton.buttonWithType(UIButtonType.ContactAdd) as! UIButton
 	fromBtn.center = CGPointMake(150, 200)
@@ -25,7 +25,7 @@ There is 4 method to presenting a Popover menu
 
 2. Show content and point to the center-bottom of rect in some view
 	
-	```
+	```Swift
 	// The content will be shown
 	let redView = UIView(frame: CGRectMake(0, 0, 100, 100))
 	redView.backgroundColor = UIColor.greenColor()
@@ -46,7 +46,7 @@ There is 4 method to presenting a Popover menu
 	
 3. Method #1 - Show controller 
 
-	```
+	```Swift
 	// Pop from this Button
 	let fromBtn = UIButton.buttonWithType(UIButtonType.ContactAdd) as! UIButton
 	fromBtn.center = CGPointMake(150, 200)
@@ -62,7 +62,7 @@ There is 4 method to presenting a Popover menu
 	```
 4.  Method #2 - Show controller
 	
-	```
+	```Swift
 	// This ctrl's view will be shown
 	let demoVC = UIViewController()
 	
