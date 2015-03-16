@@ -13,6 +13,9 @@
 		E4C7631E1AB55134003D28A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C7631D1AB55134003D28A0 /* Images.xcassets */; };
 		E4C763211AB55134003D28A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C7631F1AB55134003D28A0 /* LaunchScreen.xib */; };
 		E4C7632D1AB55134003D28A0 /* LitePopoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7632C1AB55134003D28A0 /* LitePopoverTests.swift */; };
+		E4C763371AB55149003D28A0 /* LitePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C763361AB55149003D28A0 /* LitePopover.swift */; };
+		E4CEF4411AB6D7560023C1E7 /* TestMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CEF43F1AB6D7560023C1E7 /* TestMenuViewController.swift */; };
+		E4CEF4421AB6D7560023C1E7 /* TestMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CEF4401AB6D7560023C1E7 /* TestMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		E4C763261AB55134003D28A0 /* LitePopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitePopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C7632B1AB55134003D28A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C7632C1AB55134003D28A0 /* LitePopoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitePopoverTests.swift; sourceTree = "<group>"; };
+		E4C763361AB55149003D28A0 /* LitePopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LitePopover.swift; sourceTree = "<group>"; };
+		E4CEF43F1AB6D7560023C1E7 /* TestMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMenuViewController.swift; sourceTree = "<group>"; };
+		E4CEF4401AB6D7560023C1E7 /* TestMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				E4C763161AB55134003D28A0 /* AppDelegate.swift */,
 				E4C763181AB55134003D28A0 /* ViewController.swift */,
+				E4C763361AB55149003D28A0 /* LitePopover.swift */,
+				E4CEF43F1AB6D7560023C1E7 /* TestMenuViewController.swift */,
+				E4CEF4401AB6D7560023C1E7 /* TestMenuViewController.xib */,
 				E4C7631A1AB55134003D28A0 /* Main.storyboard */,
 				E4C7631D1AB55134003D28A0 /* Images.xcassets */,
 				E4C7631F1AB55134003D28A0 /* LaunchScreen.xib */,
@@ -195,6 +204,7 @@
 				E4C7631C1AB55134003D28A0 /* Main.storyboard in Resources */,
 				E4C763211AB55134003D28A0 /* LaunchScreen.xib in Resources */,
 				E4C7631E1AB55134003D28A0 /* Images.xcassets in Resources */,
+				E4CEF4421AB6D7560023C1E7 /* TestMenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C763191AB55134003D28A0 /* ViewController.swift in Sources */,
+				E4C763371AB55149003D28A0 /* LitePopover.swift in Sources */,
 				E4C763171AB55134003D28A0 /* AppDelegate.swift in Sources */,
+				E4CEF4411AB6D7560023C1E7 /* TestMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				E4C763321AB55134003D28A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4C763331AB55134003D28A0 /* Build configuration list for PBXNativeTarget "LitePopoverTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				E4C763351AB55134003D28A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
